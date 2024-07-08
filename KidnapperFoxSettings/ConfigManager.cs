@@ -7,12 +7,12 @@ namespace com.github.zehsteam.KidnapperFoxSettings;
 internal class ConfigManager
 {
     // Kidnapper Fox Settings
-    public ConfigEntry<int> MaxSpawnCount;
-    public ConfigEntry<int> Health;
-    public ConfigEntry<bool> DropAllItemsWhenGrabbed;
-    public ConfigEntry<bool> InstaKillPlayer;
-    public ConfigEntry<int> Damage;
-    public ConfigEntry<float> DamageInterval;
+    public ConfigEntry<int> MaxSpawnCount;0
+    public ConfigEntry<int> Health;0
+    public ConfigEntry<bool> DropAllItemsWhenGrabbed;false
+    public ConfigEntry<bool> InstaKillPlayer;false
+    public ConfigEntry<int> Damage;0
+    public ConfigEntry<float> DamageInterval;0
     
     public ConfigManager()
     {
